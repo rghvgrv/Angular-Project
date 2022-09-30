@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+      <h2>Details of the Ticket </h2>
+      <p>Ticket ID :- <input type ="text" disabled class="form-control" [(ngModel)]="foundTkt.ticketId"/></p>
+      <p>Ticket Owner :- <input type ="text" class="form-control" [(ngModel)]="foundTkt.ticketOwner"/></p>
+      <p>Ticket Reason :- <input type ="text" class="form-control" [(ngModel)]="foundTkt.ticketReason"/></p>
+      <p>Ticket Status :- <input type ="text" class="form-control" [(ngModel)]="foundTkt.ticketStatus"/></p>
+      <p>
+          <button class="btn btn-info m-lg-2" (click) ="onSubmit()">Save Changes</button>
+          <button class="btn btn-primary" routerLink="/Ticket/All">
+              <i class="fa fa-arrow-left"></i> Back</button>
+      </p>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+      <h2>Details of the Ticket</h2>
+      <p>Ticket ID :- <input type ="text" disabled class="form-control" [(ngModel)]="selected.ticketId"/></p>
+      <p>Ticket Owner :- <input type ="text" disabled class="form-control" [(ngModel)]="selected.ticketOwner"/></p>
+      <p>Ticket Reason :- <input type ="text" disabled class="form-control" [(ngModel)]="selected.ticketReason"/></p>
+      <p>Ticket Status :- <input type ="text" disabled class="form-control" [(ngModel)]="selected.ticketStatus"/></p>
+      <p>
+          <button class="btn btn-primary" routerLink="/Ticket/All">
+              <i class="fa fa-arrow-left"></i> Back</button>
+      </p>
+  </div>
+</div>
